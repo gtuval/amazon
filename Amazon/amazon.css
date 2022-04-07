@@ -1,0 +1,38 @@
+
+  table {
+    width: 100%;
+    color: whitesmoke;
+    height: 30px;
+    border: 1px solid;
+    border: none;
+ }
+  td {
+    height: 30px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+  tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+  img {
+    display:block;
+    max-width:85px;
+    max-height:85px;
+  }
+  a{
+      color: whitesmoke;
+  }
+  ul{
+      list-style-type: none;
+  }
+  .mainImg{
+    max-height: 397px; max-width: 397px;
+    height: 300px;
+    width: 300px;
+  }
+  .maintxt{
+      color: black;
+      text-align: left;
+  }
