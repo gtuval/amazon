@@ -27,12 +27,15 @@
   }
   ul{
       list-style-type: none;
+      float: left;
+      padding: 15px;
   }
   .mainImg{
     max-height: 397px; max-width: 397px;
     height: 300px;
     width: 300px;
-    padding: 0;
+    padding: 15px;
+    float: left;
   }
   .maintxt{
       color: black;
@@ -44,8 +47,14 @@
   .txtbold{
     font-weight:bold;
     color: black;
-    padding: 5px;
+    padding: 0px;
     direction: ltr;
     text-align: left;
     font-size: 24px;
+    display: inline-block;
+    line-height: 2px;
+  }
+  div{
+    float: left;
+    font-size: 18px;
   }
