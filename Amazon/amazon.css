@@ -1,12 +1,13 @@
-
-  table {
-    width: 100vw;
-    color: whitesmoke;
-    height: 30px;
-    border: 1px solid;
-    border: none;
-    padding: 0%;
- }
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  width: 100vw;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.555);
+  align-items: center;
+}
   td {
     height: 30px;
     padding: 0;
